@@ -40,14 +40,19 @@
     display: inline-block;
     text-align: center;
     width: 500px;
-    height: 400px;
+    min-height: 400px;
     padding: 10px;
     font-size: 40px;
 }
 
+tr {
+  
+}
+
 td {
   box-sizing: border-box;
-  width: 100px;
-  border-collapse: collapse;
+  width: 70px;
+  height: 70px;
   text-align: center;
+  border: solid thin #a9a9a9;
 }
