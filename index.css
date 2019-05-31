@@ -40,7 +40,14 @@
     display: inline-block;
     text-align: center;
     width: 500px;
-    height: 500px;
+    height: 400px;
     padding: 10px;
     font-size: 40px;
+}
+
+td {
+  box-sizing: border-box;
+  width: 100px;
+  border-collapse: collapse;
+  text-align: center;
 }
