@@ -56,3 +56,6 @@ td {
   text-align: center;
   border: solid thin #a9a9a9;
 }
+.selectme {
+  float: left;
+}
