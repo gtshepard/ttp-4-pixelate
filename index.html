@@ -1,33 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
 
-	<style>
-		tr {
-			border: solid 2px #111;
-			min-height: 20px;
-			background-color: #FFF;
-		}
+ <!DOCTYPE html>
 
-		th, td {
-			border: solid 2px #111;
-			background-color: #FFF;
-			width: 20px;
-			height: 20px;
-		}
-	</style>
-</head>
-<body>
-	<div id="pixel-board"></div>
+<html>
+    <head>      
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="skeleton.css">
+      <link rel="stylesheet" href="index.css">
 
-	<button id = "add-rows">+</button>
-	<button id = "remove-rows">-</button>
+    </head>
+      <div class="base-con">  
+        <div class="con">
+           <div class="answer"><p> columns: </p></div>
+           <div onclick='populateText("p2-ans-2", "No Im Right")' id="add-cols" class="button"><p>+  </p></div>
+           <div onclick='populateText("p2-ans-2", "No Im Right")' id="remove-cols" class="button"><p>-</p></div>
+         </div>
+      </div>
 
-	<button id = "add-cols">+</button>
-	<button id = "remove-cols">-</button>
 
-	<script src = "index.js"></script>
-</body>
+      <div class="base-con">  
+        <div class="con">
+          <div class="answer"><p> rows: </p></div> 
+          <div onclick='populateText("p2-ans-2", "No Im Right")' id="add-rows" class="button"><p>+</p></div>
+          <div onclick='populateText("p2-ans-2", "No Im Right")' id="remove-rows" class="button"><p>- </p></div>
+         </div>
+      </div>
+
+  
+    <body>
+      <div class="base-con">
+      <div class="box">
+      <table id="pixel-board">
+        
+      </table> 
+      </div>
+      </div>
+
+        <div class="base-con">
+          <div class="con">
+             <div onclick='populateText("p1-ans-1", "Im Right")' id="btn-click-me" class="button"><p>Clear</p></div>
+            <div onclick='populateText("p1-ans-1", "Im Right")' id="btn-click-me" class="button"><p>Fill Cells</p></div>
+            <div onclick='populateText("p1-ans-1", "Im Right")' id="btn-click-me" class="button"><p>Empty Cells</p></div>
+          </div>
+        </div>
+  </body>
 </html>
