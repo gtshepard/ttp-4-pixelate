@@ -105,4 +105,3 @@ document.getElementById('remove-cols').onclick = function () {
 }
 
 
-//colorize block
