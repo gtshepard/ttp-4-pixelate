@@ -103,3 +103,5 @@ document.getElementById('add-cols').onclick = function () {
 document.getElementById('remove-cols').onclick = function () {
 	removeCols();
 }
+
+

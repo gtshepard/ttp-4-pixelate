@@ -336,13 +336,13 @@ th,
 td {
   padding: 1px 1px;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+  border: 6px solid #E1E1E1; }
 th:first-child,
 td:first-child {
-  padding-left: 0; }
+  padding: 15px; }
 th:last-child,
 td:last-child {
-  padding-right: 0; }
+  padding: 15px; }
 
 
 /* Spacing
