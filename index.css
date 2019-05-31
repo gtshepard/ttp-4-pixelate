@@ -19,12 +19,8 @@
 .answer {
   width: 100px;
   height: 40px;
-  background-color: #00FFFF;
-  border-radius: 40px;
-  border: solid;
+  font-size: 20px;
   text-align: center;
-  border-width: 5px;
-  border-color: #C0C0C0;
   float: left;
 }
 
@@ -45,7 +41,6 @@
     text-align: center;
     width: 500px;
     height: 500px;
-    background-color: #C0C0C0;
     padding: 10px;
     font-size: 40px;
 }

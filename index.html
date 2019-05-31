@@ -7,28 +7,38 @@
       <link rel="stylesheet" href="index.css">
 
     </head>
+      <div class="base-con">  
+        <div class="con">
+           <div class="answer"><p> columns: </p></div>
+           <div onclick='populateText("p2-ans-2", "No Im Right")' id="btn-no-click-me" class="button"><p>+  </p></div>
+           <div onclick='populateText("p2-ans-2", "No Im Right")' id="btn-no-click-me" class="button"><p>-</p></div>
+         </div>
+      </div>
+
+
+      <div class="base-con">  
+        <div class="con">
+          <div class="answer"><p> rows: </p></div> 
+          <div onclick='populateText("p2-ans-2", "No Im Right")' id="btn-no-click-me" class="button"><p>+</p></div>
+          <div onclick='populateText("p2-ans-2", "No Im Right")' id="btn-no-click-me" class="button"><p>- </p></div>
+         </div>
+      </div>
+
   
-  <body
+    <body>
       <div class="base-con">
       <div class="box">
       <table id="pixel-board">
-        <tr>
-          <th>Firstname</th>
-          <th>Lastname</th> 
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>Jill</td>
-          <td>Smith</td> 
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>Eve</td>
-          <td>Jackson</td> 
-          <td>94</td>
-        </tr>
       </table> 
       </div>
-      </div> 
+      </div>
+
+        <div class="base-con">
+          <div class="con">
+             <div onclick='populateText("p1-ans-1", "Im Right")' id="btn-click-me" class="button"><p>Clear</p></div>
+            <div onclick='populateText("p1-ans-1", "Im Right")' id="btn-click-me" class="button"><p>Fill Cells</p></div>
+            <div onclick='populateText("p1-ans-1", "Im Right")' id="btn-click-me" class="button"><p>Empty Cells</p></div>
+          </div>
+        </div>
   </body>
 </html>
