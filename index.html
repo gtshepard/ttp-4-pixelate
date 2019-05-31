@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+
+<html>
+    <head>      
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="skeleton.css">
+      <link rel="stylesheet" href="index.css">
+
+    </head>
+      <div class="base-con">  
+        <div class="con">
+           <div class="answer"><p> columns: </p></div>
+           <div onclick='populateText("p2-ans-2", "No Im Right")' id="add-cols" class="button"><p>+  </p></div>
+           <div onclick='populateText("p2-ans-2", "No Im Right")' id="remove-cols" class="button"><p>-</p></div>
+         </div>
+      </div>
+
+
+      <div class="base-con">  
+        <div class="con">
+          <div class="answer"><p> rows: </p></div> 
+          <div onclick='populateText("p2-ans-2", "No Im Right")' id="add-rows" class="button"><p>+</p></div>
+          <div onclick='populateText("p2-ans-2", "No Im Right")' id="remove-rows" class="button"><p>- </p></div>
+         </div>
+      </div>
+
+  
+    <body>
+      <div class="base-con">
+      <div class="box">
+      <table id="pixel-board">
+        
+      </table> 
+      </div>
+      </div>
+
+        <div class="base-con">
+          <div class="con">
+             <div onclick='populateText("p1-ans-1", "Im Right")' id="btn-click-me" class="button"><p>Clear</p></div>
+            <div onclick='populateText("p1-ans-1", "Im Right")' id="btn-click-me" class="button"><p>Fill Cells</p></div>
+            <div onclick='populateText("p1-ans-1", "Im Right")' id="btn-click-me" class="button"><p>Empty Cells</p></div>
+          </div>
+        </div>
+  </body>
+</html>
