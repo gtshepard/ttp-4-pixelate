@@ -8,6 +8,7 @@
     background-color: #C0C0C0;
     padding: 10px;
 }
+
 .base-con {
   display: flex;
   flex-direction: column;
@@ -16,6 +17,7 @@
   text-align: center;
   
 }
+
 .answer {
   width: 100px;
   height: 40px;
@@ -34,6 +36,16 @@
   border-width: 5px;
   border-color: #C0C0C0;
   float:right;
+}
+
+.con .button {
+  margin-left: auto;
+}
+
+.count {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
 }
 
 .box {
@@ -56,6 +68,7 @@ td {
   text-align: center;
   border: solid thin #a9a9a9;
 }
+
 .selectme {
   float: left;
 }
