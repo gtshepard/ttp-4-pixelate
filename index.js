@@ -9,6 +9,15 @@ let selectedColor = "red";
 
 let allowFreeDraw = false;
 
+//retri
+
+let setColor = ((id) =>  {
+  selectedColor = document.getElementById(id).value;
+  console.log(selected);
+});
+
+
+
 rootElement.onmousedown = function () {
 
 	
