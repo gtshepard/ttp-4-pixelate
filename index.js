@@ -11,7 +11,13 @@ let allowFreeDraw = false;
 
 rootElement.onmousedown = function () {
 
-	
+	allowFreeDraw = true;
+
+}
+
+rootElement.onmouseup = function () {
+
+	allowFreeDraw = false;
 
 }
 
@@ -21,7 +27,7 @@ let makeClickable = function (el) {
 		clicked: false
 	};
 
-	el.onclick = function () {
+	el.onmousedown = function () {
 
 		if (el.props.clicked == false) {
 			el.style.backgroundColor = selectedColor;
@@ -32,6 +38,7 @@ let makeClickable = function (el) {
 		}
 
 		el.props.clicked = !el.props.clicked;
+
 	}
 
 	el.onmouseover = function () {
@@ -145,16 +152,12 @@ document.getElementById('add-rows').onclick = function () {
 
 	addRows();
 
-
-	console.log(num_rows + ", " + num_cols);
-
 };
 
 document.getElementById('remove-rows').onclick = function () {
+	
 	removeRows();
 
-
-	console.log(num_rows + ", " + num_cols);
 }
 
 
@@ -166,14 +169,10 @@ document.getElementById('add-cols').onclick = function () {
 
 	addCols();
 
-
-	console.log(num_rows + ", " + num_cols);
 }
 
 document.getElementById('remove-cols').onclick = function () {
 	
 	removeCols();
 
-	console.log(num_rows + ", " + num_cols);
-	
 }
