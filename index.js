@@ -245,7 +245,6 @@ document.getElementById('add-cols').onclick = function () {
 document.getElementById('remove-cols').onclick = function () {
 	
 	removeCols();
-
 	document.getElementById('num-cols').innerHTML = num_cols;
 }
 
@@ -271,4 +270,3 @@ document.getElementById('btn-empty').onclick = function () {
 	emptyBoard();
 
 }
-
